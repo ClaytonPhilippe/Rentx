@@ -35,7 +35,6 @@ export function PasswordInput({
     setIsFilled(!!value)
   }
 
-
   function handlePasswordVisibilityChange() {
     setIsPasswordVisible(prevState => !prevState);
   }

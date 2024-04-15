@@ -3,7 +3,7 @@ import { RFValue } from 'react-native-responsive-fontsize';
 import { TextInput } from 'react-native';
 
 interface Props {
-  isFocused: boolean;
+  isFocused?: boolean;
 }
 
 export const Container = styled.View`
